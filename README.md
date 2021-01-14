@@ -5,7 +5,7 @@
 
 全局安装 **osinfo-cli** 包
 
-``` sh
+``` bash
 npm install -g osinfo-cli
 // or use yarn
 yarn add -global osinfo-cli
@@ -17,7 +17,7 @@ yarn add -global osinfo-cli
 
 查看版本：
 
-``` sh
+``` bash
 osinfo-cli -V
 // or
 osinfo-cli --version
