@@ -49,8 +49,8 @@ const hn = os.hostname();
 console.log('主机名：' + hn);
 
 //主目录
-const hdir = os.homedir();
-console.log('主目录：' + hdir);
+const dir = os.homedir();
+console.log('主目录：' + dir);
 
 //内存
 const totalMem = os.totalmem();
@@ -65,7 +65,7 @@ cpus.forEach((cpu, idx, arr) => {
   console.log(`cpu${idx}：`);
   console.log(`型号：${cpu.model}`);
   console.log(`频率：${cpu.speed}MHz`);
-  console.log(`使用率：${((1-times.idle/(times.idle+times.user+times.nice+times.sys+times.irq))*100).toFixed(2)}%`);
+  console.log(`使用率：${((1 - times.idle / (times.idle + times.user + times.nice + times.sys + times.irq)) * 100).toFixed(2)}%`);
 });
 
 //网卡

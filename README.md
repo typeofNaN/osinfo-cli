@@ -8,12 +8,18 @@
 ``` bash
 npm install -g osinfo-cli
 // or use yarn
-yarn add -global osinfo-cli
+yarn global add osinfo-cli
 ```
 
 ## Usage
 
 在命令行中，运行<code>osinfo-cli</code>命令。
+
+运行
+
+``` bash
+osinfo-cli
+```
 
 查看版本：
 
